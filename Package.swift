@@ -5,7 +5,7 @@ import PackageDescription
 let package = Package(
   name: "ReusableKit",
   platforms: [
-    .iOS(.v8), .tvOS(.v9)
+    .iOS(.v10), .tvOS(.v10)
   ],
   products: [
     .library(name: "ReusableKit", targets: ["ReusableKit"]),
